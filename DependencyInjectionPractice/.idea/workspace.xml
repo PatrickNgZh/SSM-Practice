@@ -13,34 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImplTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDaoImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="576">
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +25,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="108">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -61,8 +61,18 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/test-classes/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="288">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -73,9 +83,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -92,8 +102,12 @@
         <option value="$PROJECT_DIR$/src/main/java/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/test/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserService.java" />
+        <option value="$PROJECT_DIR$/target/test-classes/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
       </list>
     </option>
   </component>
@@ -137,7 +151,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,35 +169,102 @@
             </path>
             <path>
               <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="patrick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="patrick" type="462c0819:PsiDirectoryNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="patrick" type="462c0819:PsiDirectoryNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjectionPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjectionPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.23770492" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src\test\java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src\main\resources" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\target\test-classes" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src\main\java" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src\main\java\com\patrick\DependencyInjectionPractice\ioc" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src\test\java\com\patrick\DependencyInjectionPractice\ioc" />
-      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src\main\java" />
+      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\DependencyInjectionPractice\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,31 +279,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoImplTest">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.testSay">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="UserDaoImplTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.patrick.DependencyInjectionPractice.ioc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.patrick.DependencyInjectionPractice.ioc.UserDaoImplTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DependencyInjectionPractice" />
-      <envs />
     </configuration>
     <configuration name="UserDaoImplTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -279,31 +344,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserDaoImplTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.patrick.DependencyInjectionPractice.ioc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DependencyInjectionPractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.patrick.DependencyInjectionPractice.ioc" />
-      <option name="MAIN_CLASS_NAME" value="com.patrick.DependencyInjectionPractice.ioc.UserDaoImplTest" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="UserDaoImplTest.testSay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -316,6 +356,56 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.patrick.DependencyInjectionPractice.ioc" />
       <option name="MAIN_CLASS_NAME" value="com.patrick.DependencyInjectionPractice.ioc.UserDaoImplTest" />
+      <option name="METHOD_NAME" value="testSay" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.patrick.DependencyInjectionPractice.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DependencyInjectionPractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.patrick.DependencyInjectionPractice.ioc" />
+      <option name="MAIN_CLASS_NAME" value="com.patrick.DependencyInjectionPractice.ioc.UserServiceImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceImplTest.testSay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.patrick.DependencyInjectionPractice.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DependencyInjectionPractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.patrick.DependencyInjectionPractice.ioc" />
+      <option name="MAIN_CLASS_NAME" value="com.patrick.DependencyInjectionPractice.ioc.UserServiceImplTest" />
       <option name="METHOD_NAME" value="testSay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -391,18 +481,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.UserDaoImplTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UserDaoImplTest (2)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest.main" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest.testSay" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest.testSay" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.testSay" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.testSay" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest.testSay" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UserDaoImplTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest.main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UserDaoImplTest (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoImplTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UserDaoImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -423,30 +513,19 @@
       <workItem from="1517670091123" duration="428000" />
       <workItem from="1517704024701" duration="2569000" />
       <workItem from="1517731525168" duration="3325000" />
-      <workItem from="1517734975746" duration="713000" />
+      <workItem from="1517734975746" duration="1293000" />
+      <workItem from="1517741402131" duration="2606000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoImplTest - 2018.02.04 at 16h 21m 14s.xml">
-      <configuration name="UserDaoImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoImplTest - 2018.02.04 at 16h 23m 59s.xml">
-      <configuration name="UserDaoImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoImplTest - 2018.02.04 at 16h 24m 24s.xml">
-      <configuration name="UserDaoImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoImplTest - 2018.02.04 at 16h 26m 41s.xml">
-      <configuration name="UserDaoImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoImplTest - 2018.02.04 at 16h 30m 47s.xml">
-      <configuration name="UserDaoImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoImplTest - 2018.02.04 at 16h 33m 55s.xml">
-      <configuration name="UserDaoImplTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDaoImplTest - 2018.02.04 at 18h 01m 41s.xml">
+      <configuration name="UserDaoImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest - 2018.02.04 at 20h 17m 17s.xml">
+      <configuration name="UserDaoImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest - 2018.02.04 at 20h 43m 07s.xml">
       <configuration name="UserDaoImplTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserDaoImplTest_main - 2018.02.04 at 11h 14m 17s.xml">
@@ -458,9 +537,21 @@
     <history-entry file="UserDaoImplTest_main - 2018.02.04 at 11h 31m 39s.xml">
       <configuration name="UserDaoImplTest.main" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDaoImplTest_testSay - 2018.02.04 at 20h 50m 23s.xml">
+      <configuration name="UserDaoImplTest.testSay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2018.02.04 at 20h 30m 47s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2018.02.04 at 20h 33m 33s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_testSay - 2018.02.04 at 20h 50m 32s.xml">
+      <configuration name="UserServiceImplTest.testSay" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12509000" />
+    <option name="totallyTimeSpent" value="15695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,6 +614,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -655,6 +791,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Before.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://SpringLocalModels/module=DependencyInjectionPractice">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -672,62 +864,40 @@
           <Categories>
             <Category>Show filesets as groups</Category>
           </Categories>
-          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Before.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="288">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="576">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/DependencyInjectionPractice/ioc/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,11 +907,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>DependencyInjectionPractice:war</last-edited>
+          <last-edited>DependencyInjectionPractice:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23770492" />
                 <option value="0.5" />
               </list>
             </option>
@@ -754,7 +924,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23770492" />
               </list>
             </option>
           </splitter-proportions>
@@ -765,7 +935,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23770492" />
               </list>
             </option>
           </splitter-proportions>
@@ -777,7 +947,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23770492" />
               </list>
             </option>
           </splitter-proportions>
@@ -789,7 +959,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23770492" />
                 <option value="0.6" />
               </list>
             </option>
@@ -814,7 +984,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23770492" />
               </list>
             </option>
           </splitter-proportions>
