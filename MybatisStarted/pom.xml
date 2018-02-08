@@ -20,6 +20,13 @@
             <artifactId>mybatis</artifactId>
             <version>3.4.1</version>
         </dependency>
+
+        <!--mysql版本不要太新-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.38</version>
+        </dependency>
     </dependencies>
 
     <build>
