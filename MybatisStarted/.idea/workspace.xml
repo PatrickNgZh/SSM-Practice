@@ -60,6 +60,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,10 +130,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config/mapper/CustomerMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/MybatisTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j-config/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -255,14 +276,6 @@
               <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
               <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,92 +322,6 @@
               <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrick" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrick" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisstarted" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrick" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisstarted" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrick" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisstarted" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrick" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrick" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisstarted" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
@@ -416,14 +343,15 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\MybatisStarted\target\classes\com\patrick\mybatisstarted" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\MybatisStarted\src\main\resources" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\MybatisStarted\src\main\resources\mybatis-config\mapper" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\MybatisStarted\src\main\resources\mybatis-config" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\MybatisStarted\src\main\resources\database-config" />
       <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\MybatisStarted\src\main\java\com\patrick\mybatisstarted\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peicong\IdeaProjects\SSM-Practice\MybatisStarted\target\classes\com\patrick\mybatisstarted" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -596,20 +524,11 @@
       <workItem from="1518010284080" duration="3808000" />
       <workItem from="1518089098302" duration="2156000" />
       <workItem from="1518091290062" duration="3675000" />
-      <workItem from="1518153617356" duration="1544000" />
+      <workItem from="1518153617356" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisTest - 2018.02.08 at 20h 51m 53s.xml">
-      <configuration name="MybatisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisTest - 2018.02.08 at 20h 52m 27s.xml">
-      <configuration name="MybatisTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisTest - 2018.02.08 at 20h 52m 44s.xml">
-      <configuration name="MybatisTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MybatisTest - 2018.02.09 at 13h 36m 27s.xml">
       <configuration name="MybatisTest" configurationId="JUnit" />
     </history-entry>
@@ -628,16 +547,24 @@
     <history-entry file="MybatisTest - 2018.02.09 at 13h 46m 05s.xml">
       <configuration name="MybatisTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MybatisTest - 2018.02.09 at 13h 53m 27s.xml">
+      <configuration name="MybatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest - 2018.02.09 at 13h 54m 43s.xml">
+      <configuration name="MybatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest - 2018.02.09 at 13h 55m 49s.xml">
+      <configuration name="MybatisTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MybatisTest_findCustomerByIdTest - 2018.02.09 at 13h 44m 40s.xml">
       <configuration name="MybatisTest.findCustomerByIdTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11183000" />
+    <option name="totallyTimeSpent" value="11778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -929,16 +856,8 @@
         <state relative-caret-position="288">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
-            <marker date="1518155162521" expanded="true" signature="353:395" ph="select * fro... tb_customer" />
+            <marker date="1518155678127" expanded="true" signature="353:395" ph="select * fro... tb_customer" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,6 +868,22 @@
           <folding>
             <marker date="1518155162128" expanded="true" signature="353:395" ph="select * fro... tb_customer" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
