@@ -4,6 +4,25 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.patrick.mybatisstarted.mapper.CustomerMapper">
     <select id="findCustomerById" resultType="com.patrick.mybatisstarted.po.Customer" parameterType="Integer">
-        select * from tb_customer where id = #{id}
+        SELECT *
+        FROM tb_customer
+        WHERE id = #{id}
+    </select>
+    <select id="findCustomerByNameOrJobs" parameterType="com.patrick.mybatisstarted.po.Customer"
+            resultType="com.patrick.mybatisstarted.po.Customer">
+        SELECT *
+        FROM tb_customer
+        WHERE 1 = 1
+        <choose>
+            <when test="username!=null and username!=''">
+                AND username LIKE concat('%',#{username},'%')
+            </when>
+            <when test="jobs!=null and jobs!=''">
+                AND jobs=#{jobs}
+            </when>
+            <otherwise>
+                AND phone IS NOT NULL
+            </otherwise>
+        </choose>
     </select>
 </mapper>
