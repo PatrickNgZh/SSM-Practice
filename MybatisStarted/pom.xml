@@ -7,7 +7,6 @@
     <groupId>com.patrick.mybatisstarted</groupId>
     <artifactId>MybatisStarted</artifactId>
     <version>1.0</version>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

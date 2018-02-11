@@ -17,8 +17,8 @@ public class MybatisTest {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
-        Customer customer = sqlSession.selectOne("com.patrick.mybatisstarted.mapper"
-                +".CustomerMapper.findCustomerById", 1);
+        Customer customer = sqlSession.selectOne("com.patrick.mybatisstarted" +
+                ".mapper.CustomerMapper.findCustomerById", 2);
 //        路径这里少写了一个点
         System.out.println(customer.toString());
         sqlSession.close();
