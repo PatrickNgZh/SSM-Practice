@@ -52,11 +52,23 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ChooseWhenOtherwiseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChooseWhenOtherwiseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/ChooseWhenOtherwiseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-556">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="899">
+              <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/MybatisTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +79,7 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/po/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
+            <state relative-caret-position="792">
               <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="e#466#467#0" expanded="true" />
@@ -93,21 +105,20 @@
       <file leaf-file-name="CustomerMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/mapper/CustomerMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="540">
               <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
-                <marker date="1518361025151" expanded="true" signature="353:411" ph="SELECT * FRO... tb_customer" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MybatisUtilsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MybatisUtilsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/utils/MybatisUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="524">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +162,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/MybatisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/utils/MybatisUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/utils/MybatisUtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/ChooseWhenOtherwiseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/po/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/ChooseWhenOtherwiseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/utils/MybatisUtilsTest.java" />
       </list>
     </option>
   </component>
@@ -329,6 +340,17 @@
             <path>
               <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
               <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="patrick" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisstarted" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MybatisStarted" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MybatisStarted" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,14 +370,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -400,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChooseWhenOtherwiseTest">
+  <component name="RunManager" selected="JUnit.MybatisUtilsTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -615,11 +637,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ChooseWhenOtherwiseTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ChooseWhenOtherwiseTest.findCustomerByNull" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ChooseWhenOtherwiseTest.findCustomerByNameOrJobs" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MybatisUtilsTest.getSession" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MybatisUtilsTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MybatisUtilsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChooseWhenOtherwiseTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChooseWhenOtherwiseTest.findCustomerByNull" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ChooseWhenOtherwiseTest.findCustomerByNameOrJobs" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MybatisUtilsTest.getSession" />
       </list>
     </recent_temporary>
   </component>
@@ -647,7 +669,8 @@
       <workItem from="1518314020519" duration="5676000" />
       <workItem from="1518327868432" duration="199000" />
       <workItem from="1518347848163" duration="1888000" />
-      <workItem from="1518358594778" duration="2468000" />
+      <workItem from="1518358594778" duration="3059000" />
+      <workItem from="1518396820892" duration="2146000" />
     </task>
     <servers />
   </component>
@@ -684,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29517000" />
+    <option name="totallyTimeSpent" value="32254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1098,29 +1121,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/utils/MybatisUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/po/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
+        <state relative-caret-position="792">
           <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
             <element signature="e#466#467#0" expanded="true" />
@@ -1144,19 +1147,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patrick/mybatisstarted/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="540">
           <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
-            <marker date="1518361025151" expanded="true" signature="353:411" ph="SELECT * FRO... tb_customer" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/ChooseWhenOtherwiseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-556">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="899">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/patrick/mybatisstarted/utils/MybatisUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

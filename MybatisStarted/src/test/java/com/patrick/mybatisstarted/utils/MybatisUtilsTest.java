@@ -16,5 +16,6 @@ public class MybatisUtilsTest {
         Customer customer = sqlSession.selectOne("com.patrick.mybatisstarted" +
                 ".mapper.CustomerMapper.findCustomerById", 2);
         System.out.println(customer.toString());
+        sqlSession.close();
     }
 }
