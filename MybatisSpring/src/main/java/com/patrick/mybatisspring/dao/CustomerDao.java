@@ -9,3 +9,5 @@ import com.patrick.mybatisspring.po.Customer;
 public interface CustomerDao {
     public Customer findCustomerById(Integer id);
 }
+
+
