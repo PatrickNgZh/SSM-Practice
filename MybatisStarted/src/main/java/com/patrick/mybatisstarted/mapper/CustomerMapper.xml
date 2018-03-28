@@ -8,6 +8,12 @@
         FROM tb_customer
         WHERE id = #{id}
     </select>
+
+    <select id="findAllInfo" resultType="com.patrick.mybatisstarted.po.Customer">
+        SELECT *
+        FROM tb_customer;
+    </select>
+
     <select id="findCustomerByNameOrJobs" parameterType="com.patrick.mybatisstarted.po.Customer"
             resultType="com.patrick.mybatisstarted.po.Customer">
         SELECT *

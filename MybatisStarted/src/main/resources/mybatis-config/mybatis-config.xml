@@ -14,7 +14,9 @@
             </dataSource>
         </environment>
     </environments>
+    <!--2.配置Mapper的位置-->
     <mappers>
         <mapper resource="com/patrick/mybatisstarted/mapper/CustomerMapper.xml"/>
+        <mapper class="com.patrick.mybatisstarted.data.CustomerMapper"/>
     </mappers>
 </configuration>
