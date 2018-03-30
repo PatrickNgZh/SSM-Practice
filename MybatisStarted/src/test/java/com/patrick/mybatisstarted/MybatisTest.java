@@ -15,7 +15,7 @@ public class MybatisTest {
 
     @Test
     public void testFindCustomerById() throws IOException {
-        String resource = "mybatis-config/mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
@@ -28,7 +28,7 @@ public class MybatisTest {
 
     @Test
     public void testFindAllInfo() throws IOException {
-        String resource = "mybatis-config/mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();

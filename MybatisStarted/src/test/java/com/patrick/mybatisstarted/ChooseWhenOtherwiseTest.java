@@ -14,7 +14,7 @@ import java.util.List;
 public class ChooseWhenOtherwiseTest {
     @Test
     public void findCustomerByNameOrJobs() {
-        SqlSession sqlSession = MybatisUtils.getSession();
+        SqlSession sqlSession = MybatisUtils.getInstance().openSession();
         Customer customer = new Customer();
         customer.setUsername("Jack");
         customer.setJobs("teacher");
@@ -28,7 +28,7 @@ public class ChooseWhenOtherwiseTest {
 
     @Test
     public void findCustomerByNull() {
-        SqlSession sqlSession = MybatisUtils.getSession();
+        SqlSession sqlSession = MybatisUtils.getInstance().openSession();
         Customer customer = new Customer();
         List<Customer> customers = sqlSession.selectList("com.patrick" +
                 ".mybatisstarted.mapper.CustomerMapper.findCustomerByNameOrJobs", customer);

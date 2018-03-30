@@ -2,6 +2,7 @@ package com.patrick.mybatisstarted.utils;
 
 import com.patrick.mybatisstarted.po.Customer;
 import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 
 /**
@@ -12,7 +13,7 @@ public class MybatisUtilsTest {
 
     @Test
     public void getSession() {
-        SqlSession sqlSession = MybatisUtils.getSession();
+        SqlSession sqlSession = MybatisUtils.getInstance().openSession();
         Customer customer = sqlSession.selectOne("com.patrick.mybatisstarted" +
                 ".mapper.CustomerMapper.findCustomerById", 2);
         System.out.println(customer.toString());

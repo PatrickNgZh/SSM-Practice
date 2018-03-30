@@ -17,7 +17,7 @@ import java.io.InputStream;
 public class CustomerMapperTest {
     @Test
     public void retrieveCustomerById() throws IOException {
-        String resource = "mybatis-config/mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
@@ -33,7 +33,7 @@ public class CustomerMapperTest {
 
     @Test
     public void insertCustomer() throws IOException {
-        String resource = "mybatis-config/mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
@@ -50,7 +50,7 @@ public class CustomerMapperTest {
 
     @Test
     public void deleteCustomerById() throws IOException {
-        String resource = "mybatis-config/mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
