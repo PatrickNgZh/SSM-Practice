@@ -1,0 +1,5 @@
+Spring MVC注意
+java.lang.ClassNotFoundException: org.springframework.web.servlet.DispatcherServlet
+要把用maven导入的包加入到lib文件夹下然后再打包到war
+
+resources目录放在main下和java同级
