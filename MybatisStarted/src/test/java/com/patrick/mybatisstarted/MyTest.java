@@ -2,8 +2,7 @@ package com.patrick.mybatisstarted;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 /**
  * @author peicong
@@ -117,14 +116,14 @@ public class MyTest {
         int a[] = {2, 3, 1};
     }
 
-    public static void f(int[] data,int goal,int k,int[] x) {
+    public static void f(int[] data, int goal, int k, int[] x) {
         if (k == x.length) {
             if (goal == 0) {
                 printCombination(x);
             }
             return;
         }
-        for (int i=0;i<=Math.min(data[k],goal);++i) {
+        for (int i = 0; i <= Math.min(data[k], goal); ++i) {
             x[k] = i;
             f(data, goal - i, k + 1, x);
         }
@@ -137,11 +136,11 @@ public class MyTest {
 
     @Test
     public void testComparator() {
-        String[] list = {"a","bc","abcd","ad","bcd"};
+        String[] list = {"a", "bc", "abcd", "ad", "bcd"};
         Arrays.sort(list, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
-                return o1.length()-o2.length();
+                return o1.length() - o2.length();
             }
         });
         for (String my : list) {
@@ -151,8 +150,8 @@ public class MyTest {
 
     @Test
     public void testLambda() {
-        String[] list = {"a","bc","abcd","ad","bcd"};
-        Arrays.sort(list,((o1, o2) -> o2.length()-o1.length()));
+        String[] list = {"a", "bc", "abcd", "ad", "bcd"};
+        Arrays.sort(list, ((o1, o2) -> o2.length() - o1.length()));
         for (String my : list) {
             System.out.println(my);
         }
@@ -162,8 +161,28 @@ public class MyTest {
 
         @Override
         public int compare(String o1, String o2) {
-            return o1.length()-o2.length();
+            return o1.length() - o2.length();
         }
+    }
+
+    @Test
+    public void testMove() {
+        Scanner scanner = new Scanner(System.in);
+        int arryNum = scanner.nextInt();
+        int moveNum = scanner.nextInt();
+        List<Integer> list = new ArrayList<Integer>();
+        for (int i = 0; i < arryNum; i++) {
+            list.add(scanner.nextInt());
+        }
+        while (moveNum-- != 0) {
+            int temp = list.get(0);
+            list.remove(0);
+            list.add(temp);
+        }
+        for (int i = 0; i < arryNum - 1; i++) {
+            System.out.print(list.get(i) + " ");
+        }
+        System.out.print(list.get(arryNum - 1));
     }
 
 }
