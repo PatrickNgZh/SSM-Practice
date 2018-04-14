@@ -25,9 +25,11 @@
 <body>
 <form action="${pageContext.request.contextPath }/fileUpload"
       method="post" enctype="multipart/form-data" onsubmit="return check()">
-    上传人：<input id="name" type="text" name="name"/><br/>
+    上传人：<input id="name" type="text" name="name"/>
+    <br/>
     请选择文件：<input id="file" type="file" name="uploadfile"
-                 multiple="multiple"/><br/>
+                 multiple="multiple"/>
+    <br/>
     <input type="submit" value="上传"/>
 </form>
 </body>
